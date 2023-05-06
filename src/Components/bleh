@@ -1,0 +1,305 @@
+import React from "react";
+import ban1 from "./iamges/banq1.png"
+import ban2 from "./iamges/banq2.png"
+import {SideBarData} from "./Components/SideBardata"
+import './MyVenue.css';
+
+const eventHalls = [
+  {
+    id: 1,
+    imageUrl: ban1,
+    title: "Event Hall 1",
+    capacity: "500",
+    rent: "$2000",
+    postedBy: "John Doe"
+  },
+  {
+    id: 2,
+    imageUrl: ban2,
+    title: "Event Hall 2",
+    capacity: "300",
+    rent: "$1500",
+    postedBy: "Jane Smith"
+  },
+  // Add more event halls here...
+];
+
+export const EventHallList = () => {
+  return (
+    <>
+    <h1>YOUR VENUES</h1>
+<div className="SB">
+      <ul className="SBList">
+      <div className="Heading">eventbanao.pk</div>
+        {SideBarData.map((val, key) => {
+          return (      
+          <li 
+            key={key} 
+            id={window.location.pathname== val.link ? "active" : ""}
+            className="SBRow"
+            onClick={()=>{
+              window.location.pathname=val.link;
+            }}>
+            {" "}
+            <div id="icon">{val.icon}</div>
+            {" "}
+            <div id="title">{val.titile}</div>
+          </li>
+          )
+      })}
+      </ul>
+    </div>
+    <div className="event-hall-container">
+  {eventHalls.map((eventHall) => (
+    <div key={eventHall.id} className="event-hall">
+      <div className="img">
+      <img src={eventHall.imageUrl} alt={eventHall.title} style={{maxWidth: '45%', height: '30%', zIndex: '1'}} />
+        {/* <img src={eventHall.imageUrl} alt={eventHall.title} width=/> */}
+      </div>
+      <div className="info-box">
+        <h3 className="title">{eventHall.title}</h3>
+        <div className="capacity">
+          <span>Capacity:</span> {eventHall.capacity}
+        </div>
+        <div className="rent">
+          <span>Rent:</span> {eventHall.rent}
+        </div>
+        <div className="posted-by">
+          <span>Posted by:</span> {eventHall.postedBy}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+<div className="hs-icon">HS</div>
+      <div className="user-name">Hamza Shariq</div>
+
+    </>
+  );
+};
+
+
+
+
+asdkadasjisaj
+import React from 'react';
+import './Team.css';
+import h from './iamges/Hamza.png';
+import a from './iamges/Ali.png';
+
+export default function Member1() {
+  return (
+    <>
+    
+    <div class="row">
+    <div class="column">
+    <div class="card">
+        <img src={h} alt='CEO' /> */}
+      {/* <img src={h} alt="CEO" style="width:100%"/>
+      <div class="container">
+        <h2>Muhammad Hamza Shariq</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div> */}
+    {/* </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src={a} alt="CEO" style="width:100%"/>
+      <div class="container">
+        <h2>Ali Sohail Shaikh</h2>
+        <p class="title">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+</>
+);
+
+    <>
+    <div className='team-container'>
+    <div className='member-card'>
+      <img src={h} alt='CEO'/>
+      <h2>Muhammad Hamza Shariq</h2>
+      <div className='social-links'>
+        <a href='member1-instagram-url'>Instagram</a>
+        <a href='member1-facebook-url'>Facebook</a>
+        <a href='member1-linkedin-url'>LinkedIn</a>
+      </div>
+    </div>
+        <div className='member-card'>
+        <img src={a} alt='CEO'/>
+        <h2>Ali Sohail Shaikh</h2>
+        <div className='social-links'>
+          <a href='member2-instagram-url'>Instagram</a>
+          <a href='member2-facebook-url'>Facebook</a>
+          <a href='member2-linkedin-url'>LinkedIn</a>
+        </div>
+      </div>
+      </div>
+    </>
+  );
+}
+
+
+
+sndasxas
+/* .team-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.member-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.member-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-links a {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.team-container{
+  background-color: white;
+  padding: 70px 0;
+}
+
+
+.team-item{
+  background-color: aliceblue;
+  text-align: center;
+  margin: 20px 0;
+  padding: 50px 20px 40px 20px;
+  border-radius: 8px 8px;
+  transition: all 0.25s ease-in-out;
+}
+.team-item:hover{
+  background-color: rgb(186, 145, 32);
+  color: white ;
+}
+
+.team-item h3{
+  margin: 20px 0 1px 0 !important;
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.25s ease-in-out;
+}
+
+.team-item:hover h3{
+  color:white;
+}
+
+.team-info{
+  display: block;
+  margin-bottom: 0;
+}
+
+.title{
+  color:black;
+  font-style: italic;
+}
+
+.title::after{
+  color:white;
+}
+
+.team-info::after{
+  background: rgb(183, 146, 42);
+}
+
+.team-img{
+  max-width: 140px;
+  padding: 6px 6px;
+  background-color:#dedede;
+  border-radius: 50%;
+}
+
+ul.icon{
+  margin-top: 25px;
+  display: inline-block;
+  margin: 0 3px;
+  transition: all 0.25s ease-in-out;
+}

@@ -1,0 +1,107 @@
+.body {
+    display: flex;
+    background-color: #FFD9D9;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.HeaderLOgin{
+    transform: translateX(60px);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #FFD9D9; 
+}
+.img1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(43.33% - 1em);
+    height: 100%;
+    border-color: transparent;  
+}
+  
+.auth-FormContainter{
+    background-color: #FFD9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+    transform: translateX(650px);
+    width:850px;
+    height: 710px;
+  }
+  .SmallContainer{
+    padding: 1rem;
+    height: 450px;
+    background-color: white;
+    transform: translateY(150px);
+    border-radius: 10px;
+  }
+  .LoginForm{
+    padding: 1rem;
+    /* margin-left: 50%; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 1rem;
+    align-items: right;
+    border-radius: 10px;
+}
+label{
+    grid-column: 1;
+    flex-basis: 1;
+    text-align: left;
+    padding: 1.2rem 0;
+    font-family: "Poppins", sans-serif;
+  }
+  input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    background-color: #dfa8a8;
+    border-radius: 10px;
+    grid-column: 2 / span 3;
+  
+  } 
+  button{
+    border: none;
+    background-color: #dfa8a8;
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: large;
+
+  }
+
+  .LoginForm button {
+    transform: translateX(200px);
+    width: 130px;
+    height: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+  }
+
+  button {
+    transform: translateX(20px);
+    width: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+  }
+
+  .SU {
+    transform: translateX(20px);
+    transform: translateY(70px);
+    width: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+    text-decoration: none;
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
