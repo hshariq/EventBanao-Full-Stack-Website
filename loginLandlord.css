@@ -1,0 +1,208 @@
+.login-landlord-container {
+    min-height: 100vh;
+  }
+  .login-landlord-login-landlord {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-color: rgba(255, 217, 217, 1);
+  }
+  .login-landlord-dalle2023041318511 {
+    left: -148px;
+    width: 764px;
+    bottom: 0px;
+    height: 1024px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .login-landlord-hdeading {
+    top: 212px;
+    left: 839.999755859375px;
+    width: 495.000244140625px;
+    height: 80.1048355102539px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: transparent;
+  }
+  .login-landlord-text {
+    left: -176px;
+    color: rgba(0, 0, 0, 1);
+    width: 495px;
+    bottom: -5px;
+    height: auto;
+    position: absolute;
+    font-size: 50px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-landlord-line1 {
+    left: -135px;
+    width: 444px;
+    bottom: -8px;
+    height: 3px;
+    position: absolute;
+  }
+  .login-landlord-kaam {
+    top: 363px;
+    right: 36px;
+    width: 516px;
+    height: 479px;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    align-self: auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
+    margin-right: 0;
+    border-radius: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(230, 224, 224, 1);
+  }
+  .login-landlord-sign-up-buttonbutton {
+    top: 382px;
+    left: 299px;
+    width: 156px;
+    height: 77px;
+    position: absolute;
+  }
+  .login-landlord-text02 {
+    top: 398px;
+    left: 315px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-landlord-login-buttonbutton {
+    top: 222px;
+    left: 62px;
+    width: 366px;
+    height: 91px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 70px;
+  }
+  .login-landlord-text04 {
+    top: 240px;
+    left: 135px;
+    color: rgba(255, 255, 255, 1);
+    width: 219px;
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-landlord-password-inputinput {
+    top: 121px;
+    left: 223px;
+    width: 287px;
+    height: 54px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 7px;
+  }
+  .login-landlord-text09 {
+    top: 329px;
+    left: 95px;
+    color: rgba(0, 0, 0, 1);
+    width: 400px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-landlord-text11 {
+    top: 121px;
+    left: 20px;
+    color: rgba(0, 0, 0, 1);
+    width: 225px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .login-landlord-emailinput {
+    top: 49px;
+    left: 223px;
+    width: 287px;
+    height: 54px;
+    position: absolute;
+    border-color: transparent;
+    border-radius: 7px;
+  }
+  .login-landlord-text13 {
+    top: 53px;
+    left: 20px;
+    color: rgba(0, 0, 0, 1);
+    width: 225px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

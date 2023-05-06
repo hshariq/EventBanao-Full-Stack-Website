@@ -1,0 +1,100 @@
+
+
+
+.locations-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    
+  }
+  
+  .locations-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .location-card {
+    border: 5px solid #000;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex; 
+    gap: 20px;
+    align-items: flex-start;
+    
+  }
+
+  .location-card left {
+    flex: 1;
+    max-height: 200px;
+  }
+  .location-card right {
+    flex: 1;
+    background-color: #008c8c;
+  }
+  
+  .location-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .location-card p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .location-card button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #008c8c;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .location-card button:hover {
+    background-color: #0f4242;
+  }
+  
+  .location-card button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  /* .locations-container sidebar {
+      flex: 1
+  } */
+
+  .addButton .hello {
+    display: flex;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .hello:hover {
+    background-color: #fff;
+    color: #333;
+  }
+
+  .image {
+    max-width: 265px;
+    max-height: 320px;
+  }
+
+  .locations-container right{
+    flex:1
+  }
+  
