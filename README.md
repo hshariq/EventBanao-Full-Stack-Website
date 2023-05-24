@@ -3,6 +3,6 @@ Our website aims to create an even space for users and venue owners, such that b
 
 ## Images for Reference:
 
-![Home Page](EventBanao/WhatsApp Image 2023-05-22 at 12.45.15 AM.jpeg)
+![Home Page](WhatsApp Image 2023-05-22 at 12.45.15 AM.jpeg)
 
 
