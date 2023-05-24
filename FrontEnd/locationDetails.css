@@ -1,0 +1,45 @@
+.right-page{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1;
+    flex-direction: row;
+    background-color: #FFD9D9;
+  }
+    
+    
+
+.card-container{
+    display:flex;
+    background-color: white;
+    border: 5px solid rgb(247, 246, 245);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 1400px;
+}
+.card-left{
+    flex: 1;
+    flex-direction: row;
+}
+.card-right{
+    flex: 3;
+    flex-direction: row;
+    display: flex;
+}
+.details{
+    flex: 1;
+    flex-direction: row;
+    
+    
+}
+.details label {
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    gap: 0px;
+}
+
+h2 {
+font-size: 50px;
+font-family: "Poppins", sans-serif;
+}

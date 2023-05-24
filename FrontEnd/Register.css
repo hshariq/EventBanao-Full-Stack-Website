@@ -1,0 +1,123 @@
+/* .body {
+    display: flex;
+    background-color: #FFD9D9;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+} */
+
+.h{
+    transform: translateX(60px);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    border-bottom: 3px solid #FFD9D9; 
+}
+.img1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(43.33% - 1em);
+    height: 100%;
+    border-color: transparent;  
+}
+  
+.auth-FormContainter{
+    background-color: #FFD9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 1rem;
+    transform: translateX(650px);
+    width:850px;
+    height: 710px;
+   
+ 
+  }
+  .SmallContainer{
+    padding: 1rem;
+    height: 570px;
+    width: 450px;
+    background-color: white;
+    transform: translateY(50px);
+    border-radius: 10px;
+    position: fixed;
+  }
+  .LoginForm{
+    padding: 1rem;
+    /* margin-left: 50%; */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 1rem;
+    align-items: right;
+    border-radius: 10px;
+}
+label{
+    grid-column: 1;
+    flex-basis: 1;
+    text-align: left;
+    padding: 1.2rem 0;
+    font-family: "Poppins", sans-serif;
+  }
+  input{
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    background-color: #dfa8a8;
+    border-radius: 10px;
+    grid-column: 2 / span 3;
+  
+  } 
+  button{
+    border: none;
+    background-color: #dfa8a8;
+    padding: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: large;
+
+  }
+
+  button:disabled{
+    color:#dfa8a8;
+    background-color: white;
+  }
+
+  button {
+    transform: translateX(90px);
+    width: 200px;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+  }
+
+.Already{
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    width: 20;
+  }
+  .LU {
+    transform: translateX(45px);
+    transform: translateY(35px);
+    width: 200px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+    text-decoration: none;
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .ResiterForm{
+    contain: content;
+    max-height: fit-content;
+    height: fit-content;
+  }
+
+  .error{
+    color: red;
+  }
+  

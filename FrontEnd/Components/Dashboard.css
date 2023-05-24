@@ -1,0 +1,134 @@
+.DB_page {
+  background-color: #FFD9D9;
+}
+.SB{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 250px;
+  transform: translateY(-87px);
+  background-color: white;
+  position: relative;
+}
+
+.DBhead{
+  margin-top: 0;
+  transform: translateY(10px);
+}
+.SBHead{
+  transform: translateX(10px);
+}
+
+.SBList{
+  padding: 0;
+  width: 100%;
+}
+.SBRow{
+  transform: translateY(90px);
+  width: 100%;
+  height: 60px;
+  /* list-style-type: none; */
+  /* margin: 0%; */
+  display: flex;
+  align-items: center;
+}
+
+.SBRow #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center; 
+  /* this is center of the 30% it is given */
+  color: #DE9898;
+}
+
+.SBRow #title{
+  color: black;
+  flex: 70% ;
+  font-family: "Poppins", sans-serif;
+}
+
+.SBRow:hover{
+  cursor: pointer;
+  background-color: rgb(246, 229, 199);
+}
+
+.SBList #active{
+  background-color:rgb(246, 229, 199) ;
+}
+
+.dashboard-container {
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  width:850px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 850px;
+  margin-left: 450px;  
+  transform: translateY(-800px);
+  height: 800px 
+}
+
+
+.cards-container {
+  display: grid;
+  width: 850px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding-top: 10%;
+}
+
+.card {
+  background-color:white ;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.cardChart {
+  background-color:white ;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: auto;
+  grid-column: span 3;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+.user-name{
+  position: absolute;
+  right: 0;
+  top: 20px;
+  width: 200px;
+  height: 50px;
+  transform: translateY(12px);
+}
+.hs-icon {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform: translateX(-10px);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+
+  

@@ -1,0 +1,25 @@
+.review-card {
+    border: 5px solid #000;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex; 
+    gap: 20px;
+    align-items: flex-start;
+    
+  }
+
+  .review-card left {
+    flex: 1;
+    height: 100px;
+  }
+  .review-card right {
+    flex: 1;
+    background-color: #008c8c;
+  }
+
+  .img {
+    z-index: 1;
+  }

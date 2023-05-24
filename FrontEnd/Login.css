@@ -1,0 +1,55 @@
+.headerofLogin, h5{
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  border-bottom: 3px solid #ffaaaa; 
+  padding: 0%;
+}
+.my-text-fieldLU {
+  width: 70%;
+  transform: translateX(10px);
+}
+
+.bt {
+  transform: translateY(130%);
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);  
+}
+
+.form{
+  transform: translateY(20px);
+}
+
+
+
+
+@media (max-width: 1200px) {
+  .img1 {
+    display: none;
+  }
+  
+  .auth-FormContainter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-color: transparent;
+    background-color: #FFD9D9;
+  }
+}
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .LoginError{
+    color: red;
+    font-size: 15px;
+    flex: 1;
+    flex-direction: column;
+    padding: 0;
+    transform: translateX(30%);
+  }
+
+  

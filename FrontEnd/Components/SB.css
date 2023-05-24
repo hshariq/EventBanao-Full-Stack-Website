@@ -1,0 +1,54 @@
+.SB{
+  display: flex;
+  flex-direction: column;
+  /* transform: translateY(-87px); */
+  background-color: white;
+  position: fixed;
+  width: 350px;
+  height: 100%;
+  
+}
+.Heading{
+  font-size: larger;
+  margin-top:100px;
+}
+.SBHead{
+  transform: translateX(10px);
+}
+.SBList{
+  padding: 0;
+  /* width: 100%; */
+}
+.SBRow{
+  /* transform: translateY(90px); */
+  /* width: 100%;
+  height: 60px; */
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+}
+
+.SBRow #icon{
+  flex: 30%;
+  display: grid;
+  place-items: center; 
+  /* this is center of the 30% it is given */
+  color: #DE9898;
+}
+
+.SBRow #title{
+  color: black;
+  flex: 70% ;
+  font-family: "Poppins", sans-serif;
+}
+
+.SBRow:hover{
+  cursor: pointer;
+  background-color: rgb(246, 229, 199);
+}
+
+.SBList #active{
+  background-color:rgb(246, 229, 199) ;
+}
+

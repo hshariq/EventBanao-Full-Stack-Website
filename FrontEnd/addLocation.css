@@ -1,0 +1,112 @@
+.parent{
+  display: flex;
+  background-color: #FFD9D9;
+}
+
+.SB{
+  flex:1;
+  flex-direction: row;
+  max-width: 300px;
+  transform: translateY(0px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 1000px; /* Adjust the value as needed */
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex-direction: row;
+    flex:3;
+    justify-content: flex-start;
+    background-color: #FFD9D9;
+}
+
+.heading{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+}
+   
+
+  form {
+    border: 5px solid #000;
+    max-width: 1000px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    display: flex; 
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  
+  form > div {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  input {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+    height: 60px;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+   .submit{
+    padding: 0.5rem 1rem;
+    /* background-color: #DE9898; */
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 20px;
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+    transform: translateX(-10px);
+  }
+   .submit:hover {
+    background-color: #fff;
+    color: #DE9898;
+  }
+  
+   .submit:disabled  {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+   .upload{
+    background-color: #DE9898;
+    margin-right: 50px;
+    transform: translateX(0px);
+    font-family: "Poppins", sans-serif;
+   }
+
+    .upload:hover{
+    color: #DE9898;
+    background-color: #fff;
+   }
+  

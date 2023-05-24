@@ -1,0 +1,91 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 20px;
+  border-color: #dfa8a8;
+  z-index: 1000;
+  width: 500px;
+  max-width: 100%;
+  box-shadow: 0px 0px 20px rgba(182, 88, 88, 0.2);
+  height: 530px;
+}
+
+/* .modal h2 {
+  margin-top: 0;
+} */
+
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-color: #dfa8a8;
+  height: fit-content;
+}
+
+.modal label {
+  flex-direction: row;
+  flex: 1;
+  font-weight: bold;
+  color: #000;
+}
+
+.modal textarea {
+  height: 100px;
+  resize: none;
+  flex-direction: row;
+  flex: 1;
+}
+
+.modal button[type="submit"] {
+  background-color: #dfa8a8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: translateX(0px);
+}
+
+.modal button[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: row;
+  flex: 1;
+}
+
+.stars > div {
+  margin-right: 10px;
+}
+
+.closebutton{
+  color: black;
+  border-radius: 0px;
+  background-color: white;
+  font-size: 40px;
+  transform: translateY(70px);
+  transform: translateX(230px);
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  
+}
