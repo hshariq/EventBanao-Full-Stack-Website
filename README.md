@@ -20,7 +20,7 @@ Our website aims to create an even space for users and venue owners, such that b
 ### Venue Owners Uplaoded locations:
 ![VO](https://github.com/hshariq/EventBanao/blob/main/LandlordVenuesUploaded.png)
 ### Login As Admin:
-[Adminlogin](https://github.com/hshariq/EventBanao/blob/main/AdminLogin.png)
+![Adminlogin](https://github.com/hshariq/EventBanao/blob/main/AdminLogin.png)
 ### Admin Controls:
 ![AC](https://github.com/hshariq/EventBanao/blob/main/AdminControls.png)
 
