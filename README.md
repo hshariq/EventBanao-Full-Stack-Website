@@ -11,6 +11,19 @@ Our website aims to create an even space for users and venue owners, such that b
 ![Login as User](https://github.com/hshariq/EventBanao/blob/main/LoginUser.png)
 ### Sign Up:
 ![Sign Up](https://github.com/hshariq/EventBanao/blob/main/SignUp.png)
+### When logged in as Venue Owner:
+![DB](https://github.com/hshariq/EventBanao/blob/main/VenueOwnerDashBoard.png)
+### When logged in as User:
+![LU](https://github.com/hshariq/EventBanao/blob/main/UserPage.png)
+### Filtered Search:
+![Search](https://github.com/hshariq/EventBanao/blob/main/SearchBarFilter.png)
+### Venue Owners Uplaoded locations:
+![VO](https://github.com/hshariq/EventBanao/blob/main/LandlordVenuesUploaded.png)
+### Login As Admin:
+[Adminlogin](https://github.com/hshariq/EventBanao/blob/main/AdminLogin.png)
+### Admin Controls:
+![AC](https://github.com/hshariq/EventBanao/blob/main/AdminControls.png)
+
 
 
 
